@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #282c36;
+    color: white;
+}
+
+.game-container {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.choice {
+    font-size: 3em;
+    padding: 15px;
+    border: none;
+    background-color: #4a90e2;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.choice:hover {
+    transform: scale(1.1);
+    background-color: #357ab7;
+}
+
+#result {
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+
+#score {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
